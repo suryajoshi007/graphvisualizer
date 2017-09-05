@@ -1,0 +1,62 @@
+.navbar
+{
+	position: absolute;
+	margin-bottom: 0px !important;  
+}
+.mypad
+{
+	padding: 30px
+}
+.actborder
+{
+	border:3px solid black;
+}
+.myfloat
+{
+	float: right;
+}
+
+.mymar2
+{
+	position: relative;
+	margin: 100px !important;
+}
+
+.mymar
+{
+	position:relative;
+	margin-top: 100px !important;
+}
+.myborder
+{
+	text-align: center;
+	border-radius: 10px;
+}
+.mycontainer
+{
+	width: 800px;
+	height:500px
+}
+.darkbg
+{
+	border:3px solid silver;
+	background-color:silver;
+}
+
+.darkerbg
+{
+	border:3px solid grey;
+	background-color: grey;
+}
+
+.darkestbg
+{
+	border:3px solid black;
+}
+
+
+.mytab
+{
+	clear:both;
+}
+

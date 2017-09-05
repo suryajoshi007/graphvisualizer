@@ -1,0 +1,57 @@
+body
+{
+	border:3px solid black;
+}
+.darkborder
+{
+	border:2px solid silver;
+}
+.darkerborder
+{
+	border:2px solid grey;
+}
+.darkestborder
+{
+	border:2px solid black;
+}
+.myfull
+{
+	position: relative;
+	width: 100% !important;
+	height: 100% !important;
+}
+li input
+{
+	display:none;
+}
+
+li.edit span
+{
+	display: none;
+}
+
+li.edit input
+{
+	display: initial;
+}
+#mainarea input
+{
+	margin:20px;
+	float:right;
+}
+
+.myright
+{
+	position: relative;
+	float:right !important;
+}
+
+#mainarea
+{
+	
+}
+.mycodearea
+{
+	position: relative;
+	margin-bottom: 0px !important;
+}

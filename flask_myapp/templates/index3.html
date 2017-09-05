@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='index2.css') }}">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+	</head>
+	<body>
+		<div id="header" class="container-fluid darkborder" style="margin-bottom: 200px;">
+			<div id="headlinesrow" class="row darkborder">
+				<div id="headlines" class="col-lg-12 darkborder bg-primary">
+					<h1 style="font-size: 100px;text-align: center;margin:50px;font-family:impact,Charcoal,sans-serif;"> recursion </h1>
+					<p style="text-align: center;font-family: Brush Script Std,Brush Script MT,cursive;font-size: 30px;">a simple recursion viewer<p>
+				</div>
+				<div id="mynavbar" class="col-lg-12 darkborder">
+					<nav class="nav navbar-inverse darkestborder">
+					  <div class="container-fluid">
+					    <div class="navbar-header">
+					      <a class="navbar-brand" href="#">WebSiteName</a>
+					    </div>
+					    <ul class="nav navbar-nav">
+					      <li class="active"><a href="/index3.html" class="external">Home</a></li>
+					      <li><a href="/usage.html" class="external">how to use</a></li>
+					      <li><a href="/about.html" class="external">About</a></li>
+					    </ul>
+					  </div>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<div id="mainarea" class="container darkerborder">
+		<form  name="myform" id="myform">
+			<div class="row bg-primary" id="selection">
+				<div class="col-lg-2 myright">
+					<select name="myselect" id="myselect" class="form-control btn" style="margin:10px;">
+		  				<option value="c">C</option>
+		  				<option value="java">java</option>
+		  				<option value="python">python</option>
+					</select>
+				</div>
+			</div>
+			<div class="form-group row">
+	        	<textarea  name="mycodes" id="mycodes" class="form-control" rows="20" id="comment"></textarea>
+	        	<input class="btn btn-success" type="submit" value="buildGraph" id="mysubmit" style="padding: 20px;font-family: Brush Script Std,Brush Script MT,cursive;font-size: 25px;" >
+	        </div>
+		</form>
+		</div>
+		<div id="mysuccessdiv" class=" container alert alert-success" role="alert">
+  			<p  id="mysuccess"  class="alert-link"></p>
+		</div>
+
+		<div id="myerrordiv" class=" container alert alert-danger" role="alert">
+  			<p  id="myerror"  class="alert-link"></p>
+		</div>
+
+		<div class="container darkborder" style="font-size:40px;text-align:center;margin-top: 200px !important;">
+			<p style=" margin:50px;" ><span class="label label-default">GRAPH</span></p>
+	        <img src="/static/g.png" id="myimage">
+	    </div>
+		<div id="footer" class="container darkestborder"> 
+		</div>
+
+
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script  src= "{{ url_for('static',filename='main2.js') }}"></script>
+	</body>
+</html>
